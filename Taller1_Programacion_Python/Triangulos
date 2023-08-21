@@ -1,0 +1,21 @@
+print("Ingrese el primer lado del triángulo: ")
+l1 = float(input())
+print("Ingrese el segundo lado del triángulo: ")
+l2 = float(input())
+print("Ingrese el tercer lado del triángulo: ")
+l3 = float(input())
+
+if l1 + l2 + l3 == 180:
+return "Es un triangulo valido"
+
+if l1 == l2 and l2 == l3:
+return "Triangulo equilatero."
+
+elif l1 == l2 or l1 == l3 or l2 == l3):
+return "Triangulo isosceles."
+
+elif:
+return "Triangulo escaleno."
+
+else:
+return "No es un triangulo valido."

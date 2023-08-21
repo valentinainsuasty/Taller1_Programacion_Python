@@ -1,0 +1,14 @@
+def determinar_caracter(caracter):
+    if caracter.isalpha():
+        if caracter.isupper():
+            return "Es una letra mayuscula."
+        else:
+            return "Es una letra minuscula."
+    elif caracter.isdigit():
+        return "Es un numero."
+    else:
+        return "No es ni letra ni numero."
+
+caracter = input("Ingrese un caracter: ")
+resultado = determinar_caracter(caracter)
+print(resultado)
